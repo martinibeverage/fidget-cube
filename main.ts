@@ -16,5 +16,8 @@ input.onGesture(Gesture.Shake, function () {
         . . # # .
         `)
 })
+input.onGesture(Gesture.TiltRight, function () {
+    basic.showString("I'M DIZZY NOW:(")
+})
 music.startMelody(music.builtInMelody(Melodies.Prelude), MelodyOptions.Forever)
 basic.showString("HI! MY NAME IS")
