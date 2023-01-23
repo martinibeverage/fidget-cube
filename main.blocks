@@ -1,7 +1,31 @@
-<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="1qZvvPQ/=NYQ;=l$QBk:" x="-4" y="-21"><statement name="HANDLER"><block type="device_start_melody" id="^gZRmeLjxS.vylOCAV/7"><field name="options">MelodyOptions.Forever</field><value name="melody"><block type="device_builtin_melody" id="9L}I(dkF.(NkMz{|3a$="><field name="melody">Melodies.Prelude</field></block></value><next><block type="device_print_message" id="xA1avmhs/`hI:,eU]=y|"><value name="text"><shadow type="text" id="g6^xA2V_/YsD#ll!@LrU"><field name="TEXT">HI! MY NAME IS</field></shadow></value></block></next></block></statement></block><block type="device_button_event" id="wJU5r.R,7=Q}23`|Zq1f" x="467" y="-3"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="device_print_message" id="/Cgr{!7Ut_=4-oU@oc.="><value name="text"><shadow type="text" id="^1~ZmTjK,=6e%9Tpj7,;"><field name="TEXT">MARTIN</field></shadow></value></block></statement></block><block type="device_button_event" id="E+LIrE)_]q+azrv:oF-~" x="720" y="-7"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="device_print_message" id="C*[_p+vIx6GNhN3).?;T"><value name="text"><shadow type="text" id="z=]1mIdhqO/`?J^TscJc"><field name="TEXT">QUILILAN</field></shadow></value></block></statement></block><block type="device_gesture_event" id="A#~oY8ttQ@QR+R2yYc!:" x="624" y="134"><field name="NAME">Gesture.TiltRight</field><statement name="HANDLER"><block type="device_print_message" id="HRYVD}]G+C8PR8w4@E0p"><value name="text"><shadow type="text" id="4xL[FKj-z*XR/pVq-~CY"><field name="TEXT">I'M DIZZY NOW:(</field></shadow></value></block></statement></block><block type="device_button_event" id="R16$YA(#=u_UsIQ)xnle" x="51" y="278"><field name="NAME">Button.AB</field><statement name="HANDLER"><block type="device_print_message" id="(wpP7#^FR={=^*`Y,VSg"><value name="text"><shadow type="text" id="-P9tjjAwXQdl7|iL@e*k"><field name="TEXT">MARTIN QUILILAN</field></shadow></value></block></statement></block><block type="device_gesture_event" id="X+O|:(*Hz:crS.dER(in" x="562" y="372"><field name="NAME">Gesture.Shake</field><statement name="HANDLER"><block type="device_show_leds" id="Zbu]GCw`h@%g$Po=fJy)"><field name="LEDS">`
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="1qZvvPQ/=NYQ;=l$QBk:" x="0" y="0"><statement name="HANDLER"><block type="device_start_melody" id="^gZRmeLjxS.vylOCAV/7"><field name="options">MelodyOptions.Forever</field><value name="melody"><block type="device_builtin_melody" id="9L}I(dkF.(NkMz{|3a$="><field name="melody">Melodies.Prelude</field></block></value><next><block type="device_print_message" id="xA1avmhs/`hI:,eU]=y|"><value name="text"><shadow type="text" id="g6^xA2V_/YsD#ll!@LrU"><field name="TEXT">HI! MY NAME IS</field></shadow></value></block></next></block></statement></block><block type="device_button_event" id="wJU5r.R,7=Q}23`|Zq1f" x="471" y="18"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="device_print_message" id="/Cgr{!7Ut_=4-oU@oc.="><value name="text"><shadow type="text" id="^1~ZmTjK,=6e%9Tpj7,;"><field name="TEXT">MARTIN</field></shadow></value></block></statement></block><block type="device_button_event" id="E+LIrE)_]q+azrv:oF-~" x="724" y="14"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="device_print_message" id="C*[_p+vIx6GNhN3).?;T"><value name="text"><shadow type="text" id="z=]1mIdhqO/`?J^TscJc"><field name="TEXT">QUILILAN</field></shadow></value></block></statement></block><block type="device_gesture_event" id="A#~oY8ttQ@QR+R2yYc!:" x="628" y="155"><field name="NAME">Gesture.TiltRight</field><statement name="HANDLER"><block type="device_show_leds" id="E{L|MUR0-K5i:Gv%(iCm"><field name="LEDS">`
+        . . . . . 
+        . . # . # 
+        . . # . . 
+        . . # . # 
+        . . . . .
+        `</field></block></statement></block><block type="device_button_event" id="R16$YA(#=u_UsIQ)xnle" x="55" y="299"><field name="NAME">Button.AB</field><statement name="HANDLER"><block type="device_print_message" id="(wpP7#^FR={=^*`Y,VSg"><value name="text"><shadow type="text" id="-P9tjjAwXQdl7|iL@e*k"><field name="TEXT">MARTIN QUILILAN</field></shadow></value></block></statement></block><block type="device_gesture_event" id="X+O|:(*Hz:crS.dER(in" x="406" y="410"><field name="NAME">Gesture.Shake</field><statement name="HANDLER"><block type="device_show_leds" id="Zbu]GCw`h@%g$Po=fJy)"><field name="LEDS">`
         # # . # # 
         # # . # # 
         . . . . . 
         # # # # # 
         . . # # .
+        `</field></block></statement></block><block type="device_gesture_event" id="9(Irt(FQ0T[Oe~*x_-h~" x="45" y="442"><field name="NAME">Gesture.TiltLeft</field><statement name="HANDLER"><block type="device_show_leds" id="`3_5c+t?(u,#^L9sdo84"><field name="LEDS">`
+        . . . . . 
+        # . # . . 
+        . . # . . 
+        # . # . . 
+        . . . . .
+        `</field></block></statement></block><block type="device_gesture_event" id="@fR3e[vW%fHvaiXGZ9LD" x="639" y="477"><field name="NAME">Gesture.LogoUp</field><statement name="HANDLER"><block type="device_show_leds" id="cpp4!U$w2jWaLv]ez)[D"><field name="LEDS">`
+        . # . # . 
+        . . . . . 
+        . # # # . 
+        . . . . . 
+        . . . . .
+        `</field></block></statement></block><block type="device_gesture_event" id="Z+Z)B)ZML=@!Qr*8zLv}" x="233" y="722"><field name="NAME">Gesture.LogoDown</field><statement name="HANDLER"><block type="device_show_leds" id="B!i5H^Tw9`h=a!!IxZ%M"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . # # # . 
+        . . . . . 
+        . # . # .
         `</field></block></statement></block></xml>
